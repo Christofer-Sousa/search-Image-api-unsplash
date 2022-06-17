@@ -29,6 +29,7 @@ input.search {
     border-bottom-left-radius: 5px; 
     border: none;
     overflow: hidden;
+    outline: none;
     background-color: #CCC;
     padding: 5px 5px 5px 20px;
     font-family: "Arial", sans-serif;
@@ -42,6 +43,7 @@ input.search {
     border-bottom-right-radius: 5px; 
     border: none;
     overflow: hidden;
+    outline: none;
     background: #000;
     color:white;
     cursor:pointer;
