@@ -35,5 +35,4 @@ function loadImages(data){
         })
         document.querySelector(".container").appendChild(image)
     }
-    input.value = ""
 }
