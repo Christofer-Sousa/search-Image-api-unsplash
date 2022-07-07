@@ -30,6 +30,10 @@ function loadImages(data){
         let image = document.createElement("div")
         image.className = "img"
         image.style.backgroundImage = `url(${data.results[i].urls.raw}&w=1366&h=768)`
+        
+        let text = document.createElement("h2")
+        image.innerHTML = "<h2 class='text-download'>Double-click to download</h2>"
+        
         image.addEventListener("dblclick", ()=>{
             window.open(data.results[i].links.download, "_blank")
         })
